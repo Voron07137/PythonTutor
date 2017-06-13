@@ -1,0 +1,10 @@
+txt = "_*_ABC_*_abc_*_"
+print(txt.lstrip("_*_"))
+print(txt.rstrip("_*_"))
+print(txt.strip("_*_"))
+print(txt.split("*"))
+print(txt.rsplit("*"))
+print(txt.partition("*"))
+print(txt.rpartition("*"))
+print("abc \n ABC \n ***".splitlines())
+print("_*_".join(["AAA", "BBB", "CCC"]))

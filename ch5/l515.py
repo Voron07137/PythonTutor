@@ -1,0 +1,6 @@
+print("123".isdigit(), "12.3".isdigit())
+print("abc".isalpha(), "abc123".isalpha())
+print("ab12".isalnum(), "ab12\n".isalnum())
+print("ABC".isupper(), "aBc".isupper())
+print("abc".islower(), "aBc".islower())
+print("Ab12 Ab12".istitle(), "Ab12 AB12".istitle())
