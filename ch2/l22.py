@@ -1,4 +1,4 @@
-res = eval(input("Введите что-нибудь: "))
+res = input("Введите что-нибудь: ")
 resType = type(res)
 if resType == int:
     print("Это целое число!")
